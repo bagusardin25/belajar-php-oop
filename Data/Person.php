@@ -4,6 +4,13 @@ class Person{
     var ?string $name = null;
     var ?string $addres = null; //bisa null
     var string $country = "Indonesia";
+    var ?int $age = null;
+
+    function __construct(?string $name, ?string $addres, ?int $age){
+        $this->name = $name;
+        $this->addres = $addres;
+        $this->age = $age;
+    }
 
     function SayHello(?string $name){
         if (is_null($name)){
