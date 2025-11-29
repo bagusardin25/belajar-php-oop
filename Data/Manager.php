@@ -1,12 +1,12 @@
 <?php
-class Manager{
+class Suami{
     var string $name;
-    function SayHello(string $name):void{
-        echo "Hi, $name, my name is $this->name" . PHP_EOL;
+    var ?int $age;
+    function Anak(string $name){
+        echo "Aku adalahh $name, anak dari bapak $this->name" . PHP_EOL;
     }
 }
-
-class Turunan extends Manager{
+class Istri extends Suami{
 
 }
 ?>
