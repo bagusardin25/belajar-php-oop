@@ -1,5 +1,6 @@
 <?php
 class Person{
+    const AUTHOR = "Bagus Ardin Prayoga";
     var ?string $name = null;
     var ?string $addres = null; //bisa null
     var string $country = "Indonesia";
