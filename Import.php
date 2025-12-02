@@ -10,8 +10,8 @@ use function helper\budi;
 $conflict1 = new Conflict;
 $conflict2 = new Data\Two\Conflict;
 
-echo "welcome di $conflict1" . PHP_EOL;
-echo "welcome di $conflict2" . PHP_EOL;
+echo "welcome di $conflict1->data" . PHP_EOL;
+echo "welcome di $conflict2->data" . PHP_EOL;
 
 
 budi();
