@@ -312,3 +312,4 @@ echo $person; // Output: Nama: Agus, Umur: 25
 OOP (Object-Oriented Programming) adalah pendekatan pemrograman yang berbasis pada konsep "objek" yang mengandung data dan kode. OOP memungkinkan untuk membuat kode yang lebih modular, dapat digunakan kembali, dan lebih mudah dikelola. Kamu sudah mulai dengan properties, dan roadmap di atas akan membantumu memahami konsep-konsep penting lainnya dalam OOP PHP secara bertahap.
 
 Setelah menguasai semua konsep di atas, kamu bisa melanjutkan ke desain pattern (seperti Singleton, Factory, Observer) dan prinsip SOLID untuk menjadi pengembang OOP PHP yang lebih mahir.
+Saya ingin lanjut belajar oop
